@@ -1,0 +1,388 @@
+body {
+  background-color: blue;
+}
+
+.hidden {
+  display: none;
+}
+
+//FLEXBOX
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+//Flex Alignment
+.align-center {
+  align-items: center;
+}
+.align-right {
+  align-items: right;
+}
+.align-left {
+  align-items: left;
+}
+//Flex justify
+.jCenter {
+  justify-content: center;
+}
+.jLeft {
+  justify-content: left;
+}
+.jRight {
+  justify-content: right;
+}
+
+//WIDTH by percentage
+.w-100 {
+  width: 100%;
+}
+.w-90 {
+  width: 90%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-50 {
+  width: 50%;
+}
+.w25 {
+  width: 25%;
+}
+.w20 {
+  width: 20%;
+}
+.w-10 {
+  width: 10%;
+}
+//width by view width
+.w-100vw {
+  width: 100vw;
+}
+.w-90vw {
+  width: 90vw;
+}
+.w-80vw {
+  width: 80vw;
+}
+.w-50vw {
+  width: 50vw;
+}
+.w25vw {
+  width: 25vw;
+}
+.w20vw {
+  width: 20vw;
+}
+.w-10vw {
+  width: 10vw;
+}
+//Width by Pixel
+.w-500px {
+  width: 500px;
+}
+.w-250px {
+  width: 250px;
+}
+.w-200px {
+  width: 200px;
+}
+.w-100px {
+  width: 100px;
+}
+.w-90px {
+  width: 90px;
+}
+.w-80px {
+  width: 80px;
+}
+.w-50px {
+  width: 50px;
+}
+.w25px {
+  width: 25px;
+}
+.w20px {
+  width: 20px;
+}
+.w-10px {
+  width: 10px;
+}
+
+//height by percentage
+.h-100 {
+  height: 100%;
+}
+.h-90 {
+  height: 90%;
+}
+.h-80 {
+  height: 80%;
+}
+.h-50 {
+  height: 50%;
+}
+.h25 {
+  height: 25%;
+}
+.h20 {
+  height: 20%;
+}
+.h-10 {
+  height: 10%;
+}
+//height by vieh height
+.h-100vh {
+  height: 100vh;
+}
+.h-90vh {
+  height: 90vh;
+}
+.h-80vh {
+  height: 80vh;
+}
+.h-50vh {
+  height: 50vh;
+}
+.h25vh {
+  height: 25vh;
+}
+.h20vh {
+  height: 20vh;
+}
+.h-10vh {
+  height: 10vh;
+}
+//height by Pixel
+.h-500px {
+  height: 500px;
+}
+.h-250px {
+  height: 250px;
+}
+.h-200px {
+  height: 200px;
+}
+.h-100px {
+  height: 100px;
+}
+.h-90px {
+  height: 90px;
+}
+.h-80px {
+  height: 80px;
+}
+.h-50px {
+  height: 50px;
+}
+.h25px {
+  height: 25px;
+}
+.h20px {
+  height: 20px;
+}
+.h-10px {
+  height: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+//   FONT  SIZES
+.font-64px {
+  font-size: 64px;
+}
+
+.font-56px {
+  font-size: 56px;
+}
+
+.font-48px {
+  font-size: 48px;
+}
+
+.font-40px {
+  font-size: 40px;
+}
+
+.font-36px {
+  font-size: 36px;
+}
+
+.font-30px {
+  font-size: 30px;
+}
+
+.font-24px {
+  font-size: 24px;
+}
+
+.font-20px {
+  font-size: 20px;
+}
+
+.font-16px {
+  font-size: 20px;
+}
+
+.font-12px {
+  font-size: 20px;
+}
+
+//text-color
+.text-blue {
+  color: blue;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-orange {
+  color: orange;
+}
+
+.text-pink {
+  color: pink;
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.text-purple {
+  color: purple;
+}
+
+.text-brown {
+  color: brown;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.text-navy {
+  color: navy;
+}
+
+.text-teal {
+  color: teal;
+}
+
+//background-color
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-purple {
+  background-color: purple;
+}
+
+.bg-brown {
+  background-color: brown;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-navy {
+  background-color: navy;
+}
+
+.bg-teal {
+  background-color: teal;
+}
+
+//Rounded Corners
+.rounded-5 {
+  border-radius: 5%;
+}
+
+.rounded-10 {
+  border-radius: 10%;
+}
+
+.rounded-15 {
+  border-radius: 15%;
+}
+
+.rounded-20 {
+  border-radius: 20%;
+}
+
+.rounded-25 {
+  border-radius: 25%;
+}
+
+.rounded-50 {
+  border-radius: 50%;
+}
+
+.rounded-60 {
+  border-radius: 60%;
+}
+
+.rounded-75 {
+  border-radius: 75%;
+}
+
+.shadow {
+  box-shadow: 2px 2px 2px 10px rgba(200, 200, 200, 0.2);
+}
+
+.startButtonActive:active {
+  color: black;
+  width: 245px;
+  height: 98px;
+  box-shadow: 5px 5px 5px 10px rgba(200, 200, 200, 0.2);
+}
+
+.startButtonActive:hover {
+  color: black;
+}
